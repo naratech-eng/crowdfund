@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "min",
+						"type": "uint256"
+					}
+				],
+				"name": "createCampaign",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedCampaigns",
+				"outputs": [
+					{
+						"internalType": "contract FundRaise",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDeployedCampaigns",
+				"outputs": [
+					{
+						"internalType": "contract FundRaise[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements voting process along with vote delegation",
+			"kind": "dev",
+			"methods": {},
+			"title": "Ballot",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"crowdfund/SmartContract/contracts.sol": "campaignFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"crowdfund/SmartContract/contracts.sol": {
+			"keccak256": "0x82389518f02d6972cc3d25985130dfe34dcd671e0e9e4486f0cb7b5252bf3f12",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://60c7e812eb6313fa0e56e781b7893969b872671e6bf3ec16afd346e11950dfe0",
+				"dweb:/ipfs/QmRNQWzNCy95FmPtUg2Qh42YKeg5GetvG2ivk7NARgG7BG"
+			]
+		}
+	},
+	"version": 1
+}
